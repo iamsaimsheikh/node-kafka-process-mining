@@ -1,0 +1,29 @@
+{
+  "name": "kafka-process-mining",
+  "version": "1.0.0",
+  "description": "A repo for research that involves nodejs kafka process mining python dockers refinforcement-learning celeonis ",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose up --build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamsaimsheikh/node-kafka-process-mining.git"
+  },
+  "keywords": [
+    "kafka",
+    "process-mining",
+    "nodejs",
+    "python",
+    "celeonis",
+    "reinforcement-learning",
+    "machine-learning"
+  ],
+  "author": "saim bin sualeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamsaimsheikh/node-kafka-process-mining/issues"
+  },
+  "homepage": "https://github.com/iamsaimsheikh/node-kafka-process-mining#readme"
+}
