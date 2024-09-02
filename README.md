@@ -33,7 +33,7 @@ You can run Kafka and Zookeeper using Docker. Follow these steps to set them up:
 
     ```sh
     docker run -p 9092:9092 \
-        -e KAFKA_ZOOKEEPER_CONNECT=192.168.10.14:2181 \
-        -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://192.168.10.14:9092 \
+        -e KAFKA_ZOOKEEPER_CONNECT=<CURRENT_IP_ADDRESS>:2181 \
+        -e KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://<CURRENT_IP_ADDRESS>:9092 \
         -e KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR=1 \
         confluentinc/cp-kafka

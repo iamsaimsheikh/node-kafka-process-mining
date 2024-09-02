@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A repo for research that involves nodejs kafka process mining python dockers refinforcement-learning celeonis ",
   "main": "index.js",
-  "scripts": {
+    "scripts": {
     "start": "docker-compose up --build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/iamsaimsheikh/node-kafka-process-mining/issues"
   },
-  "homepage": "https://github.com/iamsaimsheikh/node-kafka-process-mining#readme"
+  "homepage": "https://github.com/iamsaimsheikh/node-kafka-process-mining#readme",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
 }
